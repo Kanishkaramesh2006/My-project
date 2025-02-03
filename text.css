@@ -1,0 +1,34 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background: rgb(197, 222, 248);
+    padding: 15px;
+    margin-top: 50px;
+}
+span {
+    display: block;
+    color: #333;
+    width: 30px;
+    height: 30px;
+    background: #ddd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    border: 2px solid #333;
+    font-size: 15px;
+}
+
+.menu-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-items li {
+    margin: 0px 10px;
+}
+
+.menu-items li:hover {
+    color: rgb(97, 238, 118);
+    transform: scale(1.2);
+    transition: .5s;
+}
